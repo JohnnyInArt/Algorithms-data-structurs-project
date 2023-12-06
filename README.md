@@ -17,13 +17,13 @@
     </li>
     <li>
       <a href="#description">Description</a>
-      <ul>
-        <li><a href="#"></a></li>
-      </ul>
     </li>
-    <li><a href="#running-instructions">Running instructions</a></li>
-    <li><a href="#assignment-and-report">Assignment and report</a></li>
-    <li><a href="#license">License</a></li>
+    <li>
+      <a href="#assignment-and-report">Assignment and report</a>
+      </li>
+    <li>
+      <a href="#license">License</a>
+    </li>
   </ol>
 </details>
 
@@ -69,11 +69,6 @@ The method receives as input the parent of the new node, and the information of 
 Since the insertion operation requires knowledge of the parent node, it is advisable that the method implemented for such an operation returns the node itself in order to easily retrieve it for later insertion. Note that the tree description doesn't specify the position where a node
 will be inserted among any parent children already present. It must be possible to view the various parameters of a tree or a node, such as the list of information of a node's children, the information of a
 node, the list of node information resulting from a certain visit, the height of the tree, etc. For this, it may be useful to implement special methods that facilitate their printing.
-
-
-# Running instructions
-
-
 
 # Assignment and report
 
