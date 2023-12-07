@@ -52,16 +52,18 @@ Such a tree can be stored by keeping for each node a pointer to the first child 
 For example, the tree in Figure 1 becomes the one represented in Figure 2.
 
 <p align="center">
-    <img src="images/1_Generic_Tree.jpg" width='600' />
+    <img src="images/1_Generic_Tree.jpg" width='400' />
 </p>
-
-Figure 1: A generic tree: A[B[E, F ], C[G[H, I, L, M ]], D]
+<p align="center">
+    Figure 1: A generic tree: A[B[E, F ], C[G[H, I, L, M ]], D]
+</p>
 
 <p align="center">
-    <img src="images/2_Binary_Tree.jpg" width='600' />
+    <img src="images/2_Binary_Tree.jpg" width='300' />
 </p>
-
-Figure 2: Corresponding binary tree 2
+<p align="center">
+    Figure 2: Corresponding binary tree 2
+</p>
 
 # List of methods
 
@@ -98,8 +100,8 @@ Once the project has been imported into the workspace, run the java class [Run.j
 The result on the screen that will be displayed with the default setting is shown below:
 
 ```diff
-Returns the tree string T: A[B[E,F],C[G[H,I,L,M]],D]
-Returns the tree root of T: A
+Return the tree string T: A[B[E,F],C[G[H,I,L,M]],D]
+Return the tree root of T: A
 Return the tree nodes list visited in depth, DFS:, DFS: [A, B, E, F, C, G, H, I, L, M, D]
 Return the tree nodes list visited in breadth, BFS: [A, B, C, D, E, F, G, H, I, L, M]
 Return the number of tree nodes of T: 11
