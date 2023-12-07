@@ -52,13 +52,13 @@ Such a tree can be stored by keeping for each node a pointer to the first child 
 For example, the tree in Figure 1 becomes the one represented in Figure 2.
 
 <p align="center">
-    <img src="images/1_Generic_Tree" width='600' />
+    <img src="images/1_Generic_Tree.jpg" width='600' />
 </p>
 
 Figure 1: A generic tree: A[B[E, F ], C[G[H, I, L, M ]], D]
 
 <p align="center">
-    <img src="images/2_Binary_Tree" width='600' />
+    <img src="images/2_Binary_Tree.jpg" width='600' />
 </p>
 
 Figure 2: Corresponding binary tree 2
