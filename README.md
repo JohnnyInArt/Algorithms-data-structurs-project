@@ -49,16 +49,14 @@ all the information contained in the nodes is of the same type;
 specifying the parent of the node that will be inserted and the information that it'll contain.
 
 Such a tree can be stored by keeping for each node a pointer to the first child and a pointer to the next sibling (PFFS).
-For example, the tree in [Figure 1](#figure1) becomes the one represented in Figure 2. 
+For example, the tree in Figure 1 becomes the one represented in Figure 2. 
 A NodePFFS class and a class are created PFFS tree for managing T. Constructors of the classes will have to be decided based on the needs and choices made for the realization of the project. The variables of instance must be chosen in a manner functional to the above characteristics mentioned and the methods requested below, which require the implementation of the most characteristic operations that can be performed on trees.
 
 <p align="center">
-<a href="#figure1">
     <img src="images/1_Generic_Tree.jpg" width='400' />
-    </a>
 </p>
 <p align="center">
-    Figure 1: A generic tree: A[B[E, F ], C[G[H, I, L, M ]], D]
+    Figure 1: A generic tree: A[B[E, F], C[G[H, I, L, M ]], D]
 </p>
 
 <p align="center">
