@@ -22,8 +22,8 @@ public class Run {
 
 	NodoPFFS<String> newR = new NodoPFFS<>("newR");
 
-	System.out.println("Returns the tree string T: " + T.toString());
-	System.out.println("Returns the tree root of T: " + T.getRoot());
+	System.out.println("Return the tree string T: " + T.toString());
+	System.out.println("Return the tree root of T: " + T.getRoot());
 	System.out.println("Return the tree nodes list visited in depth, DFS:, DFS: " + T.visitDFS());
 	System.out.println("Return the tree nodes list visited in breadth, BFS: " + T.visitBFS());
 	System.out.println("Return the number of tree nodes of T: " + T.numberNodes());
