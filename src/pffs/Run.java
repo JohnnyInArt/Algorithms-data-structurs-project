@@ -44,8 +44,8 @@ public class Run {
 	System.out.println("Numer of children of the T tree are: " + T.numberLeafs(A));
 
 	System.out.println("Change the root of the T tree to: " + T.addNewRoot(newR));
-	System.out.println("Returns the tree string of T: " + T.toString());
-	System.out.println("Returns the new root of the T tree: " + T.getRoot());
+	System.out.println("Return the tree string of T: " + T.toString());
+	System.out.println("Return the new root of the T tree: " + T.getRoot());
 	System.out.println("Children list of a node " + newR.toString() + ": " + T.childs(newR));
 	System.out.println("Children list of a node " + A.toString() + ": " + T.childs(A));
 
